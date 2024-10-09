@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: "Roboto";
+} 
+
+.header, .hero, .footer{
+    background-color: #1F2937;
+}
+
+.header{
+    display: flex;
+    padding: 15px 80px;
+    justify-content: space-between;
+}
+
+.headerlogotext{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero .secondarytext, ul{
+    font-size: 15px;
+    color: #E5E7EB;
+    font-weight: 350;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.hero button{
+    width: 150px;
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.hero .maintext{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero{
+    display: flex;
+    padding: 80px 50px;
+    gap: 3rem;
+    justify-content: space-around;
+}
+
+.hero img{
+    height: 500px;
+}
+
+.hero .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 500px;
+    gap: 1rem;
+}
+
+
+
